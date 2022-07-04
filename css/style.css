@@ -47,7 +47,13 @@ h2::after {
 img {
     width: 100%;
 }
+video{
+    -webkit-filter:grayscale(100%);
+    -moz-filter:grayscale(100%);
+    -ms-filter:grayscale(100%);
+    filter:grayscale(100%);
 
+}
 li {
     list-style: none;
 }
