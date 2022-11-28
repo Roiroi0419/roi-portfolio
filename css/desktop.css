@@ -211,7 +211,14 @@ dd{
 }
 
 /*----------------------- Works 終了*/
-
+.mix{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;  
+}
+.mix >iframe{
+    padding: 10px;
+}
 /*----------------------- Skills 開始*/
 
 
@@ -242,6 +249,7 @@ dd{
 
 progress {
     -webkit-appearance: none;
+    margin: 5px;
 }
 
 ::-webkit-progress-value {
