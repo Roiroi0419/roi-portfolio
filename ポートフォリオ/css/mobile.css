@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* モバイル非表示 ーーーーーーーーーーーーーーーーーーーーーーーーーーー*/
+nav{
+    display: none;
+}
+video{
+    display: none;
+}
+.skills{
+    display: none;
+}
+iframe{
+    width: 400px;
+}
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー */
+
+body {
+    color: #fff;
+    background-color: #000;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #fff;
+}
+
+a:visited {
+    color: #191dff;
+}
+
+a:hover {
+    color: #fff;
+}
+
+h2 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+h2::after {
+    display: block;
+    content: '';
+    width: 300px;
+    height: 0px;
+    border-top: solid 5px #b72661;
+    margin-top: 1px;
+
+}
+
+img {
+    width: 100%;
+}
+li {
+    list-style: none;
+}
+
+/* how-to-me */
+.how_items{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.how-item img{
+    width: 50%;
+    display: block;
+    margin: auto;
+
+}
+
+.text .name.times dt dd{
+    font-family: 'Sawarabi Mincho', serif;
+}
+.times::after {
+    display: block;
+    content: '';
+    width: 300px;
+    height: 0px;
+    border-top: solid 5px #b72661;
+    margin-top: 1px;
+}
+
+.btn {
+    border: 1px solid #333;
+    width: 200px;
+    cursor: pointer;
+    font-size: 30px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    border-radius: 10px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.btn:hover {
+    border: 1px solid rgb(204, 203, 203);
+    color: #fff;
+    background-color: #000;
+
+}
